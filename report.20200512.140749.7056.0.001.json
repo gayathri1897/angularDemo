@@ -1,0 +1,281 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200512.140749.7056.0.001.json",
+    "dumpEventTime": "2020-05-12T14:07:50Z",
+    "dumpEventTimeStamp": "1589272670014",
+    "processId": 7056,
+    "threadId": null,
+    "cwd": "C:\\gayathri_angular\\UserInput",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Gayathri\\AppData\\Roaming\\npm\\\\node_modules\\@angular\\cli\\bin\\ng",
+      "serve"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 32,
+    "arch": "ia32",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x86/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.14393",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "i686",
+    "cpus": [
+      {
+        "model": "Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz",
+        "speed": 1440,
+        "user": 12505093,
+        "nice": 0,
+        "sys": 8742046,
+        "idle": 204057531,
+        "irq": 1095515
+      },
+      {
+        "model": "Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz",
+        "speed": 1440,
+        "user": 13148687,
+        "nice": 0,
+        "sys": 6960843,
+        "idle": 205194296,
+        "irq": 305296
+      },
+      {
+        "model": "Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz",
+        "speed": 1440,
+        "user": 13373781,
+        "nice": 0,
+        "sys": 6440203,
+        "idle": 205489859,
+        "irq": 137078
+      },
+      {
+        "model": "Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz",
+        "speed": 1440,
+        "user": 14728250,
+        "nice": 0,
+        "sys": 6906046,
+        "idle": 203669546,
+        "irq": 122109
+      }
+    ],
+    "host": "DESKTOP-RGDG7US"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+  ],
+  "javascriptHeap": {
+    "totalMemory": 196763648,
+    "totalCommittedMemory": 196763648,
+    "usedMemory": 193525168,
+    "availableMemory": 335383220,
+    "memoryLimit": 529530880,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 22612,
+        "used": 22612,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 524288,
+        "committedMemory": 524288,
+        "capacity": 524008,
+        "used": 524000,
+        "available": 8
+      },
+      "old_space": {
+        "memorySize": 123564032,
+        "committedMemory": 123564032,
+        "capacity": 123189980,
+        "used": 122128784,
+        "available": 1061196
+      },
+      "code_space": {
+        "memorySize": 3047424,
+        "committedMemory": 3047424,
+        "capacity": 2690240,
+        "used": 2506560,
+        "available": 183680
+      },
+      "map_space": {
+        "memorySize": 2625536,
+        "committedMemory": 2625536,
+        "capacity": 2622816,
+        "used": 1775720,
+        "available": 847096
+      },
+      "large_object_space": {
+        "memorySize": 66158592,
+        "committedMemory": 66158592,
+        "capacity": 66060132,
+        "used": 66060132,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 581632,
+        "committedMemory": 581632,
+        "capacity": 507360,
+        "used": 507360,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 524008,
+        "used": 0,
+        "available": 524008
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 152.875,
+    "kernelCpuSeconds": 25.218,
+    "cpuConsumptionPercent": 7.75329,
+    "maxRss": 305045504,
+    "pageFaults": {
+      "IORequired": 443359,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 6282,
+      "writes": 26
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\gayathri_angular\\UserInput",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Gayathri\\AppData\\Roaming",
+    "BROWSERSLIST_IGNORE_OLD_DATA": "1",
+    "C:\\Program Files\\Java\\jdk1.8.0_221\\bin": "C:\\Program Files\\Java\\jdk1.8.0_221\\bin",
+    "CLASSPATH": "C:\\Program Files\\Java\\jdk1.8.0_221\\jre\\bin",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-RGDG7US",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Gayathri\\AppData\\Roaming\\npm\\",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Gayathri",
+    "java": "C:\\Program Files\\Java\\jdk1.8.0_221",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_221",
+    "LOCALAPPDATA": "C:\\Users\\Gayathri\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-RGDG7US",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Gayathri\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\Java\\jdk1.8.0_221\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Java\\jdk1.8.0_221\\bin;C:\\Users\\Gayathri\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "x86",
+    "PROCESSOR_IDENTIFIER": "x86 Family 6 Model 76 Stepping 4, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4c04",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Gayathri\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Gayathri\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-RGDG7US",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-RGDG7US",
+    "USERNAME": "Gayathri",
+    "USERPROFILE": "C:\\Users\\Gayathri",
+    "VS150COMCOMNTOOLS": "C:\\Program Files\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\",
+    "WEBPACK_DEV_SERVER": "true",
+    "windir": "C:\\WINDOWS",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.44.2",
+    "LANG": "en_US.UTF-8",
+    "COLORTERM": "truecolor",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\System32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}
